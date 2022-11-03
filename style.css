@@ -1,0 +1,229 @@
+*{
+    font-family: 'Signika Negative', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+body{
+    overflow-x: hidden;
+}
+.glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+    
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+.home{
+    height: 40px;
+    width: 40px;
+}
+.x{
+    font-size: 1.1rem;
+    color: black;
+    text-decoration: double;
+    opacity: 0.8;
+     
+}
+.x:hover{
+    font-size: 1.2rem;
+    transition: 0.5s;
+    border: solid;
+    border-top: 0px;
+    border-left:0px ;
+    border-right: 0px;    
+    opacity: 1;
+    
+}
+.heading{
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    margin-top: 3px;
+}
+.navbar{
+    background-color: white;
+    height: 3rem;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    padding: 10px;
+}
+.nav{
+     display: flex;
+     flex-wrap: wrap;
+     list-style: none;
+
+}
+li{
+    padding-right: 2rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+.rightnav{
+    margin: 0;
+    list-style: none;
+    display: flex;
+    position:relative;
+    top: -40px;
+    left: 950px;
+}
+.icon{
+    height: 1.7rem;
+    width: 1.7rem; 
+    flex-wrap: wrap;
+    border-radius: 50%;
+    padding: 0px;
+}
+.text{
+    margin-top: 2px;
+    margin-left: 70px;
+    /* padding: 1rem; */
+    line-height: 2.5rem;
+}
+.adjust{
+    display: flex;
+    flex-wrap: wrap;
+}
+.head{
+    margin: 20px;
+    position: relative;
+    left: 10px;
+}
+.welcome{
+    position: relative;
+    left: -300px;
+    top: -10px;
+}
+.xmas{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 30px;
+    }
+.btnx{
+    border: none;
+    width: 80%;
+    margin-left: 15px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    background-color: #E14D2A;
+    color: white;
+}
+.btnx:hover{
+    background-color: #f83206;
+    transition: 0.5s;
+    border-bottom: 2px solid black;
+}
+   .list{
+       padding: 1rem;
+       margin: 10px;
+       font-size: 2rem;
+   }
+   .list:hover{
+       color: black;
+       margin: 1rem;
+       padding: 0.1rem;
+   }
+   .container{
+    display: flex;
+    flex-wrap: wrap;
+   }
+   .display{
+    height: 10rem;
+    width: 10rem;
+    border: 5px solid rgb(177, 177, 177);
+    background-color: rgba(89, 112, 156, 0.489);
+    border-radius: 10px;
+    margin: 50px;
+    padding: 5px;
+    
+}
+.btn{
+    height: 3rem;
+    width: 7rem;
+    /* color: white; */
+    /* background-color: blue; */
+    border-radius: 10px;
+    margin: 1rem;
+}
+.btn:hover{
+        background-color: #ABD9FF;
+}
+.hero{
+    position: relative;
+    left: 5rem;
+    top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cloud{
+    position: relative;
+    left: 150px;
+    top: 25px;
+}
+.herotext{
+    height: 15rem;
+    width: 50%;
+    margin-top: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    /* top: -400px;
+    left: 600px; */
+    
+}
+
+
+@media (max-width: 480px){
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+}
+.rightnav{
+    top: -40px;
+    left: 230px;
+}
+.li{
+    padding-right: 0px;
+    margin-left: 0px;
+}
+.icon{
+    margin-right: -30px;
+}
+.welcome{
+    position: relative;
+    left: -50px;
+    top: -10px;
+}
+.hero{
+    position: relative;
+    left: 2rem;
+    top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cloud{
+    position: relative;
+    left: 10px;
+    top: 100px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}    
+}
+
+@media (min-width:481px) and (max-width:810px){
+
+}
